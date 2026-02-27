@@ -1,12 +1,16 @@
+![Status](https://img.shields.io/badge/status-finalizado-brightgreen)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 # 🐧 Meu Primeiro Script Linux
 
-Este é um projeto de aprendizado para automação de tarefas usando **Bash Script** e **Git**.
+Projeto de automação para prática de comandos Bash e Git.
 
-## 🚀 Funcionalidades
-- Organiza arquivos `.txt` automaticamente.
-- Utiliza cores no terminal para feedback visual.
-- Gera um arquivo de log (`relatorio.log`) a cada execução.
+## 🛠️ O que o script faz:
+- Organiza arquivos `.txt` da pasta `bagunça` para `backup`.
+- Gera um relatório de execução em `relatorio.log`.
+- Executa silenciosamente via **Crontab**.
 
-## 🛠 Como rodar
-1. `chmod +x limpeza.sh` (Dá permissão)
-2. `./limpeza.sh` (Executa)
+## 🚀 Como testar:
+1. `chmod +x limpeza.sh`
+2. `./limpeza.sh`
